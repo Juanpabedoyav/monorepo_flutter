@@ -1,0 +1,11 @@
+name: monorepo_example
+
+packages:
+  - packages/*
+  - apps/*
+    
+scripts:
+  bootstrap: melos bootstrap
+
+
+    
